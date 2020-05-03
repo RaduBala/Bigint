@@ -34,7 +34,7 @@ extern  void     Bigint_Add( uint8_t *data1 , uint8_t *data2 , uint8_t *dest , u
 
 extern  void     Bigint_Substract( uint8_t *minuend , uint8_t *sinuend , uint8_t *difference , uint16_t size1 , uint16_t size2 ) ;
 
-extern  uint8_t  Bigint_BeadBit( uint8_t *data , uint16_t bit_position ) ;
+extern  uint8_t  Bigint_ReadBit( uint8_t *data , uint16_t bit_position ) ;
 
 extern  void     Bigint_WriteBit( uint8_t *data , uint16_t bit_position , uint8_t bit_value ) ;
 
