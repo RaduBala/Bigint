@@ -197,7 +197,7 @@ void  Bigint_Substract ( uint8_t *minuend , uint8_t *sinuend , uint8_t *differen
         sinuend_unit = ndx < size2 ? sinuend[ndx] : 0u ;
         minuend_unit = minuend[ndx] ;
 
-        if m inuend_unit >= carry  )
+        if ( minuend_unit >= carry  )
         {
             minuend_unit -= carry ;
         
