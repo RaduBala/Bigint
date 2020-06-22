@@ -52,7 +52,7 @@ extern  void     Bigint_Multiply( uint8_t *data1 , uint8_t *data2 , uint8_t *des
 
 extern  void     Bigint_Divide( uint8_t *dividend , uint8_t *divisor , uint8_t *quotient , uint8_t *remainder , uint16_t size_dend , uint16_t size_dsor ) ;
 
-extern  void     bigint_ModularExponentiation( uint8_t *base , uint8_t *exponent , uint8_t *modulus , uint8_t *result , uint16_t size ) ;
+extern  void     Bigint_ModularExponentiation( uint8_t *base , uint8_t *exponent , uint8_t *modulus , uint8_t *result , uint16_t size ) ;
 
 extern  uint8_t  Bigint_VerifyPrime( uint8_t *number , uint16_t precision , uint16_t size ) ;
 
