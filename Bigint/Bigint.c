@@ -94,13 +94,15 @@ uint8_t  Bigint_Compare ( uint8_t *data1 , uint8_t *data2 , uint16_t size1 , uin
         if ( data1_unit > data2_unit )
         {
             retVal = 1u ;
-            ndx    = 0u ;
+            
+            break;
         }
         else
         if ( data1_unit < data2_unit )
         {
             retVal = 2u ;
-            ndx    = 0u ;
+            
+            break;
         }
     }
 
